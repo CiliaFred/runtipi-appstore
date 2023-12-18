@@ -22,6 +22,14 @@
       "min": 10,
       "required": true,
       "env_variable": "VAULTWARDEN_ADMIN_PASSWORD"
+    },
+    {
+      "type": "boolean",
+      "label": "Enable SMTP",
+      "hint": "Must be set to true if you want to configure SMTP server to use for VaultWarden",
+      "placeholder": "true",
+      "default": true,
+      "env_variable": "ENABLE_SMTP"
     }
   ],
   "supported_architectures": [
