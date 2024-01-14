@@ -45,6 +45,7 @@ services:
       - SIDEKIQ_ONLY=false 
       - SIDEKIQ_DEFAULT=false
       - SIDEKIQ_THREADS=5
+      - LIBRE_TRANSLATE_ENDPOINT=http://libretranslate:5000
 
     restart: unless-stopped
     networks:
