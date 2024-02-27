@@ -14,6 +14,9 @@ services:
       - TZ=${TZ}
     networks:
       - tipi_main_network
+    depends_on:
+      grav-init:
+        condition: service_completed_successfully
     labels:
       # Main
       traefik.enable: true
@@ -39,3 +42,10 @@ services:
       traefik.http.routers.grav-local.entrypoints: websecure
       traefik.http.routers.grav-local.service: grav
       traefik.http.routers.grav-local.tls: true
+
+  grav-init:
+    image: bash:5.2.26
+    container_name: grav-init
+    volumes:
+      - ${APP_DATA_DIR}/data:/tmp/data
+    command: bash -c "chmod +x /tmp/data/init/init.sh && /tmp/data/init/init.sh "
