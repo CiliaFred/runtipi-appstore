@@ -8,6 +8,7 @@ This is the official repository for the Tipi App Store. It contains all the apps
 - [Activepieces](https://github.com/activepieces/activepieces) - True zapier alternative.
 - [Actual Budget](https://github.com/actualbudget/actual-server) - Local-first OpenSource Budget tool
 - [Adguard](https://github.com/AdguardTeam) - World's most advanced adblocker!
+- [AFFiNE](https://github.com/toeverything/affine) - AFFiNE is a workspace with fully merged docs, whiteboards and databases.
 - [Anse](https://github.com/anse-app/anse) - Fully optimized UI for AI Chats.
 - [ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) - Open source self-hosted web archiving.
 - [Atuin Server](https://github.com/atuinsh/atuin) - Magical Shell History
@@ -27,13 +28,16 @@ This is the official repository for the Tipi App Store. It contains all the apps
 - [ChangeDetection](https://github.com/dgtlmoon/changedetection.io) - Website change detection.
 - [ChatGPT UI](https://github.com/WongSaang/chatgpt-ui) - A ChatGPT web client that supports multiple users, multiple languages, and multiple database connections for persistent data storage
 - [Chatpad AI](https://github.com/deiucanta/chatpad) - Not just another ChatGPT user-interface!
+- [Cheshire Cat AI](https://github.com/cheshire-cat-ai/core) - A production-ready AI framework to develop AI agents.
 - [Cloudflare DDNS](https://github.com/joshuaavalon/docker-cloudflare) - Update DNS records on Cloudflare.
 - [Cloudflared](https://github.com/WisdomSky/Cloudflared-web) - Cloudflare Tunnels in a Web UI
-- [Code-Server - Web VS Code](https://github.com/linuxserver/docker-code-server) - Code-server is VS Code running on a remote server, accessible through the browser.
+- [Code Server](https://github.com/coder/code-server) - VS Code in the browser
 - [CodeX.docs](https://github.com/codex-team/codex.docs) - Free Docs app powered by Editor.js ecosystem.
 - [Crafty](https://gitlab.com/crafty-controller/crafty-4) - Python based Control Panel for your Minecraft Server
 - [Cross-Seed](https://github.com/cross-seed/cross-seed) - Fully-automatic cross-seeding with Torznab.
+- [Crowdsec](https://github.com/crowdsecurity/crowdsec) - Participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI.
 - [CTFd](https://github.com/CTFd/CTFd) - Cyber Security Training made simple.
+- [CyberChef](https://github.com/gchq/CyberChef) - The Cyber Swiss Army Knife
 - [DailyTxT](https://github.com/PhiTux/DailyTxT) - Encrypted Diary Web-App
 - [Dash.](https://github.com/MauriceNino/dashdot) - A simple, modern server dashboard, primarily used by smaller private server
 - [Dashy](https://github.com/lissy93/dashy) - A self-hostable personal dashboard built for you.
@@ -46,7 +50,8 @@ This is the official repository for the Tipi App Store. It contains all the apps
 - [Draw.io](https://github.com/jgraph/drawio) - Diagramming and whiteboarding app.
 - [Duck DNS](https://github.com/linuxserver/docker-duckdns) - Duck DNS is a free Dynamic DNS service
 - [Duplicati](https://github.com/linuxserver/docker-duplicati) - Store securely encrypted backups in the cloud!
-- [Eclipse Mosquitto](https://github.com/eclipse/mosquitto/) - open source message broker
+- [Eclipse Mosquitto](https://github.com/eclipse/mosquitto/) - The MQTT protocol provides a lightweight method of carrying out messaging using a publish/subscribe model.
+- [Electrs](https://github.com/romanz/electrs) - Electrum server
 - [Email OAuth2 Proxy](https://github.com/simonrob/email-oauth2-proxy) - OAuth Proxy for IMAP/POP/SMTP.
 - [Emulatorjs](https://github.com/EmulatorJS/EmulatorJS) - Self-hosted Javascript emulation for various system.
 - [Excalidraw](https://github.com/excalidraw/excalidraw) - Online whiteboard collaboration made easy
@@ -57,15 +62,18 @@ This is the official repository for the Tipi App Store. It contains all the apps
 - [Fireshare](https://github.com/ShaneIsrael/fireshare) - Self host your media and share with unique links
 - [Flaresolverr](https://github.com/FlareSolverr/FlareSolverr) - Bypass Cloudflare and DDoS-GuARD.
 - [flatnotes](https://github.com/Dullage/flatnotes) - A self-hosted, database-less note taking web app
+- [Flightlog](https://github.com/perdian/flightlog/) - Flightlog, a web application that keeps track of your personal flight history
 - [Flowise AI](https://github.com/FlowiseAI/Flowise) - Build LLM Apps Easily
 - [Forgejo](https://codeberg.org/forgejo/forgejo/) - Beyond coding. We forge. · Lightweight and performant · Guaranteed 100% Free Software
 - [FreshRSS](https://github.com/FreshRSS/FreshRSS) - A free, self-hostable aggregator… 
 - [gandi-livedns](https://github.com/jbbodart/gandi-livedns) - Update your Gandi DNS zone records with your WAN IP
 - [Get A Shell](https://github.com/steveiliop56/getashell) - SSH shells from a Web UI
-- [Ghost](https://github.com/TryGhost/Ghost) - Ghost - Turn your audience into a business.
+- [Ghost Development](https://github.com/TryGhost/Ghost) - Ghost - Turn your audience into a business.
+- [Ghost Production](https://github.com/TryGhost/Ghost) - Ghost - Turn your audience into a business.
 - [Ghostfolio](https://github.com/ghostfolio/ghostfolio) - Open Source Wealth Management Software.
 - [Gitea](https://github.com/go-gitea/gitea) - Gitea - Git with a cup of tea · A painless self-hosted Git service. · Cross-platform · Easy to install · Lightweight · Open Source.
 - [Gladys Assistant](https://github.com/gladysassistant/gladys) - A privacy-first, open-source home assistant
+- [Glance](https://github.com/glanceapp/glance) - Super configurable dashboard
 - [Glances](https://github.com/nicolargo/glances) - An eye on your system
 - [Gotify](https://github.com/gotify/server) - Gotify, a simple server for sending and receiving notification messages.
 - [GoToSocial](https://github.com/superseriousbusiness/gotosocial) - Fast, fun, ActivityPub server, powered by Go.
@@ -73,6 +81,7 @@ This is the official repository for the Tipi App Store. It contains all the apps
 - [Grav](https://github.com/getgrav/grav) - Grav is a Fast, Simple, and Flexible, file-based Web-platform. 
 - [Grist](https://github.com/gristlabs/grist-core) - Grist is the evolution of spreadsheets.
 - [Grocy](https://github.com/grocy/grocy) - ERP beyond your fridge
+- [Guacamole](https://github.com/apache/guacamole-server) - Clientless remote desktop gateway
 - [Halo](https://github.com/halo-dev/halo) - Halo - Open source website building tool.
 - [Hammond](https://github.com/alfhou/hammond) - Self hosted vehicle and expense management system. Like Clarkson, but better
 - [Haven](https://github.com/havenweb/haven) - Self-hostable private blogging
@@ -81,10 +90,11 @@ This is the official repository for the Tipi App Store. It contains all the apps
 - [Hello World](https://github.com/crccheck/docker-hello-world) - Hello World web server in under 2 MB
 - [Homarr](https://github.com/ajnart/homarr) - Homarr is a simple and lightweight homepage for your server, that helps you easily access all of your services in one place.
 - [Home Assistant](https://github.com/home-assistant/core) - Open source home automation that puts local control and privacy first
-- [HomeBox](https://github.com/hay-kot/homebox) - Homebox is the inventory and organization system built for the Home User
+- [HomeBox](https://github.com/sysadminsmedia/homebox) - Inventory and organization system.
 - [Home Bridge](https://github.com/homebridge/homebridge) - HomeKit support for the impatient.  
 - [Homepage](https://github.com/gethomepage/homepage) - A highly customizable homepage
 - [Immich](https://github.com/immich-app/immich) - Photo and video backup solution directly from your mobile phone.
+- [Inspircd](https://github.com/inspircd/inspircd) - A modular C++ IRC server.
 - [Invidious](https://github.com/iv-org/invidious) - An alternative front-end to YouTube
 - [Invoice Ninja](https://github.com/invoiceninja/invoiceninja) - Invoices, Expenses and Tasks built with Laravel, Flutter and React.
 - [IT-Tools](https://github.com/CorentinTh/it-tools) - Collection of handy online tools for developers, with great UX.
@@ -100,6 +110,8 @@ This is the official repository for the Tipi App Store. It contains all the apps
 - [Kimai](https://github.com/kimai/kimai) - Open source time-tracker
 - [Kiwix Server](https://github.com/kiwix/kiwix-tools/) - Kiwix Server is a web server for hosting .zim files
 - [Koillection](https://github.com/benjaminjonard/koillection) - Koillection allow you to manage any kind of collections.
+- [Kometa](https://github.com/Kometa-Team/Kometa) - Overlays, Collections & Playlists for Plex.
+- [Komga](https://github.com/gotson/komga) - A media server for your comics, mangas, BDs, magazines and eBooks.
 - [LibReddit](https://github.com/spikecodes/libreddit) - Browse reddit without problems!
 - [LibrePhotos](https://github.com/LibrePhotos/librephotos) - Complete photo management service
 - [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) - Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup.
@@ -108,11 +120,13 @@ This is the official repository for the Tipi App Store. It contains all the apps
 - [LinkStack](https://github.com/LinkStackOrg/linkstack-docker) - LinkStack is a highly customizable link sharing platform with an intuitive, easy to use user interface
 - [Linkwarden](https://github.com/linkwarden/linkwarden) - A self-hosted, open-source collaborative bookmark manager
 - [Lobe Chat](https://github.com/lobehub/lobe-chat) - LLM chatbot framework
-- [Lodestone Core](https://github.com/Lodestone-Team/lodestone_core) - Server hosting tool for Minecraft and other multiplayers
+- [Lodestone Core](https://github.com/Lodestone-Team/lodestone_core) - Server hosting tool for Minecraft and other multiplayers.
 - [Logto](https://github.com/logto-io/logto) - Logto is a cost-effective open-source alternative to Auth0. 
 - [Maintainerr](https://github.com/jorenn92/Maintainerr) - Maintainerr will manage the storage space on your plex server, launching automated actions to delete your files.
 - [Mastodon](https://github.com/mastodon/mastodon) - Your self-hosted, globally interconnected microblogging community
 - [Conduit](https://gitlab.com/famedly/conduit) - Conduit is a simple, fast and reliable chat server written in Rust
+- [Matter Server](https://github.com/home-assistant-libs/python-matter-server) - Interact with Matter. Works with HA !
+- [MDNS Repeater](https://github.com/angelnu/docker-mdns_repeater) - Re-broadcast mDNS packets.
 - [Mealie](https://github.com/hay-kot/mealie) - Mealie is a self-hosted recipe manager and meal planner.
 - [Memos](https://github.com/usememos/memos) - Memo hub for knowledge management and collaboration.
 - [MeTube](https://github.com/alexta69/metube) - youtube-dl web UI
@@ -128,6 +142,7 @@ This is the official repository for the Tipi App Store. It contains all the apps
 - [Monica](https://github.com/monicahq/monica) - A Personal Relationship Management tool to help you document your social life.
 - [Moodist](https://github.com/remvze/moodist) - Ambient sounds for focus and calm.
 - [Movary](https://github.com/leepeuker/movary) - Movary is a self-hosted web application to track and rate your watched movies. 
+- [MQTTX](https://github.com/emqx/MQTTX/) - MQTT websocket browser client tool
 - [mStream Music](https://github.com/IrosTheBeggar/mStream) - The easiest music streaming server available
 - [Mylar3](https://github.com/mylar3/mylar3) - Mylar3 is an automated Comic Book downloader (cbr/cbz) for use with NZB and torrents written in python.
 - [n8n](https://github.com/n8n-io/n8n) - Workflow Automation Tool. Alternative to Zapier
@@ -145,7 +160,11 @@ This is the official repository for the Tipi App Store. It contains all the apps
 - [Obsidian LiveSync](https://github.com/vrtmrz/self-hosted-livesync-server) - LiveSync couchdb backend for Obsidian
 - [Octobot](https://github.com/Drakkar-Software/OctoBot) - Octobot is a powerful open-source cryptocurrency trading robot.
 - [Odoo](https://github.com/odoo/odoo) - Open-source business management software with modular applications for streamlined operations.
+- [Ollama - AMD](https://github.com/ollama/ollama) - LLMs inference server with OpenAI compatible API
+- [Ollama - CPU](https://github.com/ollama/ollama) - LLMs inference server with OpenAI compatible API
+- [Ollama - Nvidia](https://github.com/ollama/ollama) - LLMs inference server with OpenAI compatible API
 - [OneDev](https://code.onedev.io/onedev/server) - Self-hosted Git Server with Kanban and CI/CD
+- [Open WebUI](https://github.com/open-webui/open-webui) - User-friendly WebUI for LLMs
 - [openbooks](https://github.com/evan-buss/openbooks) - Search and Download eBooks
 - [Outline](https://github.com/outline/outline) - A home for all your docs
 - [Overseerr](https://github.com/sct/overseerr) - Request management and media discovery tool for the Plex ecosystem
@@ -157,6 +176,8 @@ This is the official repository for the Tipi App Store. It contains all the apps
 - [Peppermint](https://github.com/Peppermint-Lab/peppermint) - An open source ticket management & help desk solution.
 - [PhotoPrism](https://github.com/photoprism/photoprism) - AI-Powered Photos App for the Decentralized Web. We are on a mission to protect your freedom and privacy.
 - [Pi-hole](https://github.com/pi-hole/pi-hole) - A black hole for Internet advertisements
+- [Pinchflat](https://github.com/kieraneglin/pinchflat) - Your next YouTube media manager
+- [Pingvin Share](https://github.com/stonith404/pingvin-share) - Self-hosted file sharing platform
 - [Planka](https://github.com/plankanban/planka) - Free open source kanban board for workgroups.
 - [Planning Poker](https://github.com/axeleroy/self-host-planning-poker) - Online planning poker for scrum master.
 - [Plausible](https://github.com/plausible/analytics) - Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics.
@@ -177,6 +198,7 @@ This is the official repository for the Tipi App Store. It contains all the apps
 - [Revolt Chat](https://github.com/revoltchat) - Open source user-first chat platform.
 - [RomM](https://github.com/zurdi15/romm) - RomM (Rom Manager) is a web based retro roms manager integrated with IGDB.
 - [RSS](https://github.com/ssddanbrown/rss) - A simple, opinionated, RSS feed aggregator.
+- [RSSHub](https://github.com/DIYgod/RSSHub) - Everything is RSSible with RSSHub
 - [Ryot](https://github.com/IgnisDa/ryot) - Roll your own tracker!
 - [SABnzbd](https://github.com/sabnzbd/sabnzbd) - Sabnzbd makes Usenet as simple and streamlined as possible by automating everything we can
 - [Scrypted](https://github.com/koush/scrypted) - High performance home video integration and automation platform
@@ -188,10 +210,16 @@ This is the official repository for the Tipi App Store. It contains all the apps
 - [Shlink](https://github.com/shlinkio/shlink) - Shlink is a self-hosted URL shortener
 - [Silverbullet](https://github.com/silverbulletmd/silverbullet) - SilverBullet is a creative space where you collect, create and expand your personal knowledge, while also letting you constantly evolve the tools you use to do so.
 - [SimpleX SMP](https://github.com/simplex-chat/simplexmq) - A reference implementation of the SimpleX Messaging Protocol for simplex queues over public networks.
+- [SiYuan](https://github.com/siyuan-note/siyuan) - SiYuan is a privacy-first personal knowledge management system.
+- [SLSKD](https://github.com/slskd/slskd) - P2P downloads
 - [Sonarr](https://github.com/Sonarr/Sonarr) - TV show manager for Usenet and BitTorrent
+- [Spacedrive](https://github.com/spacedriveapp/spacedrive) - Cross-platform file explorer
 - [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker) - Internet performance tracking application.
+- [Spoolman](https://github.com/Donkie/Spoolman) - Keep track of your inventory of 3D-printer filament spools
 - [Sshwifty](https://github.com/nirui/sshwifty) - Web SSH & Telnet (WebSSH & WebTelnet client)
+- [Stalwart Mail](https://github.com/stalwartlabs) - Open-source mail server solution with JMAP, IMAP4, and SMTP support
 - [Stirling-PDF](https://github.com/Frooodle/Stirling-PDF/) - Powerful locally hosted web based PDF manipulation tool.
+- [Suwayomi](https://github.com/Suwayomi/docker-tachidesk) - An open-source manga reader server with bundled Web UI
 - [Syncthing](https://github.com/syncthing) - Peer-to-peer file synchronization between your devices
 - [Tailscale](https://github.com/tailscale/tailscale) - The easiest, most secure way to use WireGuard and 2FA.
 - [Tandoor](https://github.com/TandoorRecipes/recipes) - Recipe collection manager.
@@ -211,7 +239,7 @@ This is the official repository for the Tipi App Store. It contains all the apps
 - [Vikunja](https://kolaente.dev/vikunja) - The Todo-app to organize your life.
 - [Wallos](https://github.com/ellite/Wallos) - Open-Source Personal Subscription Tracker
 - [Wekan](https://github.com/wekan/wekan) - Open-Source, customizable, and privacy-focused kanban
-- [Wireguard](https://github.com/WeeJeWel/wg-easy/) - VPN server for your homeserver
+- [Wireguard](https://github.com/wg-easy/wg-easy) - VPN server for your homeserver
 - [Whisparr](https://github.com/Whisparr/Whisparr) - Adult movie collection manager.
 - [Whoogle Search](https://github.com/benbusby/whoogle-search) - A self-hosted, ad-free, privacy-respecting metasearch engine.
 - [WikiJS](https://github.com/requarks/wiki) - A modern and powerful wiki app built on Node.js
