@@ -3,7 +3,7 @@ version: "3"
 services:
   scrypted:
     container_name: scrypted
-    image: koush/scrypted:18-jammy-full.s6-v0.88.0
+    image: koush/scrypted:v0.114.0-jammy-full
     privileged: true
     volumes:
       - ${APP_DATA_DIR}/data/scrypted/database:/server/volume
@@ -11,7 +11,7 @@ services:
       #- /var/run/dbus:/var/run/dbus
       #- /var/run/avahi-daemon/socket:/var/run/avahi-daemon/socket
     environment:
-      - SCRYPTED_WEBHOOK_UPDATE_AUTHORIZATION=${SCRYPTED_BEARER_TOKEN}
+      - SCRYPTED_WEBHOOK_UPDATE_AUTHORIZATION=Bearer ${SCRYPTED_BEARER_TOKEN}
       - SCRYPTED_DOCKER_AVAHI=false
       #- SCRYPTED_WEBHOOK_UPDATE=${APP_PROTOCOL:-http}://${APP_DOMAIN}/v1/update
     devices:
