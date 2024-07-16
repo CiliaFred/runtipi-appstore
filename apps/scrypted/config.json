@@ -3,7 +3,7 @@
   "name": "Scrypted",
   "port": 10443,
   "available": true,
-  "exposable": false,
+  "exposable": true,
   "https": true,
   "id": "scrypted",
   "tipi_version": 8,

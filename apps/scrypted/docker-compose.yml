@@ -1,28 +1,43 @@
-version: "3"
+version: "3.9"
 
 services:
   scrypted:
     container_name: scrypted
     image: koush/scrypted:v0.114.0-jammy-full
-    privileged: true
     volumes:
       - ${APP_DATA_DIR}/data/scrypted/database:/server/volume
       - ${ROOT_FOLDER_HOST}/media/data/NVR/scrypted:/nvr
-      #- /var/run/dbus:/var/run/dbus
-      #- /var/run/avahi-daemon/socket:/var/run/avahi-daemon/socket
     environment:
       - SCRYPTED_WEBHOOK_UPDATE_AUTHORIZATION=Bearer ${SCRYPTED_BEARER_TOKEN}
       - SCRYPTED_DOCKER_AVAHI=false
-      #- SCRYPTED_WEBHOOK_UPDATE=${APP_PROTOCOL:-http}://${APP_DOMAIN}/v1/update
-    devices:
-      - /dev/bus/usb:/dev/bus/usb
-      - /dev/dri:/dev/dri
+    ports:
+      - ${APP_PORT}:10443
+    networks:
+      - tipi_main_network
     restart: unless-stopped
-    network_mode: host
-    logging:
-      driver: "json-file"
-      options:
-          max-size: "10m"
-          max-file: "10"
     labels:
+      # Main
+      traefik.enable: true
+      traefik.http.middlewares.scrypted-web-redirect.redirectscheme.scheme: https
+      traefik.http.services.scrypted.loadbalancer.server.port: 80
+      # Web
+      traefik.http.routers.scrypted-insecure.rule: Host(`${APP_DOMAIN}`)
+      traefik.http.routers.scrypted-insecure.entrypoints: web
+      traefik.http.routers.scrypted-insecure.service: scrypted
+      traefik.http.routers.scrypted-insecure.middlewares: scrypted-web-redirect
+      # Websecure
+      traefik.http.routers.scrypted.rule: Host(`${APP_DOMAIN}`)
+      traefik.http.routers.scrypted.entrypoints: websecure
+      traefik.http.routers.scrypted.service: scrypted
+      traefik.http.routers.scrypted.tls.certresolver: myresolver
+      # Local domain
+      traefik.http.routers.scrypted-local-insecure.rule: Host(`scrypted.${LOCAL_DOMAIN}`)
+      traefik.http.routers.scrypted-local-insecure.entrypoints: web
+      traefik.http.routers.scrypted-local-insecure.service: scrypted
+      traefik.http.routers.scrypted-local-insecure.middlewares: scrypted-web-redirect
+      # Local domain secure
+      traefik.http.routers.scrypted-local.rule: Host(`scrypted.${LOCAL_DOMAIN}`)
+      traefik.http.routers.scrypted-local.entrypoints: websecure
+      traefik.http.routers.scrypted-local.service: scrypted
+      traefik.http.routers.scrypted-local.tls: true
       runtipi.managed: true
